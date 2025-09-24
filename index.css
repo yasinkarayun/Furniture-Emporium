@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: gray;
+  padding: 1rem;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+.product {
+  background: white;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  width: 50ch;
+}
+
+.product .name,
+.product .description,
+.product .price {
+  margin-bottom: 0.5rem;
+}
+
+
+.product .price {
+  font-family: serif;
+  font-size: 2rem;
+  color: green;
+}
+
+.product .price s {
+  font-size: 1rem;
+  color: gray;
+}
+
+.product .add-to-cart {
+  background:green;
+  color: white;
+
+  border: 0;
+  border-radius: 0.5rem;
+  padding: 1.5ch;
+  width: 100%;
+}
+
+.product .add-to-cart:hover {
+  cursor: pointer;
+  background: #296957;
+}
